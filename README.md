@@ -2,6 +2,12 @@
 
 ## Ejercicio 1
 
+### Dibujos del Grafo de Git
+#### Después del punto 25
+![](snapshot-25.jpg =400x)
+#### Al final del ejercicio
+![](snapshot-final.jpg =400x)
+
 ### Preguntas y respuestas
 **Pregunta: ¿Qué comando utilizaste en el paso 11? ¿Por qué?**
 `git reset --hard HEAD~1`
