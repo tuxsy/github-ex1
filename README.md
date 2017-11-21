@@ -4,9 +4,9 @@
 
 ### Dibujos del Grafo de Git
 #### Después del punto 25
-![](https://github.com/tuxsy/github-ex1/blob/master/snapshot-25.jpg =400x)
+![](snapshot-25.jpg?raw=true  =400x)
 #### Al final del ejercicio
-![](https://github.com/tuxsy/github-ex1/blob/master/snapshot-final.jpg =400x)
+![](snapshot-final.jpg?raw=true =400x)
 
 ### Preguntas y respuestas
 **Pregunta: ¿Qué comando utilizaste en el paso 11? ¿Por qué?**
