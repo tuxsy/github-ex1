@@ -1,0 +1,33 @@
+3 git add git-nuestro.md
+4 git commit -m "New file ‘git-nuestro.md’"
+5 git branch styled
+6 git branch -a
+7 git checkout styled
+8 git status
+10 git commit -a -m "Markdownify file 'git-nuestro.md'"
+11 git reset --hard HEAD~1
+12 git reflog && git reset --hard 2c813ae
+13 git merge master ( no conflicts )
+14 git checkout master
+15 git branch htmlify
+16 git checkout htmlify
+18 git commit -a -m "Htmlify file 'git-nuestro.md'"
+19 git checkout styled && git merge htmlify
+20 git add git-nuestro.md && git commit
+21 git checkout master && git merge styled
+22 git checkout -b title
+23 git commit -a -m "Cool title."
+24 git checkout master
+26 git merge --no-ff title
+27 git reset HEAD~1
+28 git checkout -- git-nuestro.md
+29 git branch -D title
+30 git reflog && git reset --hard e836606
+31 git branch && git branch -D htmlify && git branch -D styled
+32 git log && git checkout 1be431543367e7e4c3d9b6bf1d58541f8e28f7a2 ( Detached )
+33 git checkout master
+34 git log && git tag inicial 1be431543367e7e4c3d9b6bf1d58541f8e28f7a2 \
+          && git tag styled 2c813aeae4f38d347651017e2e4b15887a09a2f9 \
+          && git tag htmlify f7df017507a353958c044a4c9a879bc2297bfe02 \
+          && git tag title e836606
+35 git checkout htmlify ( Detached )
