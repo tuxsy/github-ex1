@@ -1,5 +1,15 @@
 # Práctica del curso de git, gitHub y Sourcetree
 
+-----
+
+## NOTA
+El *fork* del repositorio **nerdquotes** desde el que se ha hecho el *pull-request*
+(ejercicio 2) es el siguiente:
+
+`https://github.com/tuxsy/nerdquotes`
+
+-----
+
 ## Ejercicio 1
 
 ### Dibujos del Grafo de Git
